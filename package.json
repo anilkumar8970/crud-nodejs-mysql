@@ -11,8 +11,9 @@
     "mysql2": "^2.3.3"
   },
   "scripts": {
-    "build": "node --watch src/index.js",
-    "start": "node src/index.js"
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "build": "echo 'No build steps required'"
   },
   "keywords": [],
   "author": "",
